@@ -1,0 +1,36 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: Century;
+}
+
+body{
+    background-color: rgb(104, 104, 197);
+}
+.home{
+    display: flex;
+    align-items: center;
+
+}
+.in-flex{
+    flex: 1;
+    min-width: 180px;
+    align-items: center;
+    margin: 0px;
+}
+.in-flex:first-child{
+    flex: 2;
+    
+    padding: 65px;
+    background-color: rgb(211, 211, 19);
+    margin: 20px;
+    margin-bottom: 0px;
+}
+.in-flex div{
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(181, 207, 224);
+    margin: 20px;
+}
